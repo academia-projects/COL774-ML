@@ -1,0 +1,149 @@
+Hospital County_1.0
+Hospital County_2.0
+Hospital County_3.0
+Hospital County_4.0
+Hospital County_5.0
+Hospital County_6.0
+Hospital County_7.0
+Hospital County_8.0
+Hospital County_9.0
+Hospital County_10.0
+Hospital County_11.0
+Hospital County_12.0
+Hospital County_13.0
+Hospital County_14.0
+Hospital County_15.0
+Hospital County_17.0
+Hospital County_18.0
+Hospital County_19.0
+Hospital County_20.0
+Hospital County_21.0
+Hospital County_22.0
+Hospital County_23.0
+Hospital County_24.0
+Hospital County_25.0
+Hospital County_26.0
+Hospital County_27.0
+Hospital County_28.0
+Hospital County_29.0
+Hospital County_30.0
+Hospital County_31.0
+Hospital County_32.0
+Hospital County_33.0
+Hospital County_34.0
+Hospital County_35.0
+Hospital County_36.0
+Hospital County_37.0
+Hospital County_38.0
+Hospital County_39.0
+Hospital County_40.0
+Hospital County_41.0
+Hospital County_42.0
+Hospital County_43.0
+Hospital County_44.0
+Hospital County_46.0
+Hospital County_47.0
+Hospital County_48.0
+Hospital County_49.0
+Hospital County_50.0
+Hospital County_51.0
+Hospital County_52.0
+Hospital County_53.0
+Hospital County_54.0
+Hospital County_55.0
+Hospital County_56.0
+Hospital Service Area_1.0
+Hospital Service Area_2.0
+Hospital Service Area_3.0
+Hospital Service Area_4.0
+Hospital Service Area_5.0
+Hospital Service Area_6.0
+Hospital Service Area_7.0
+Hospital Service Area_8.0
+Gender_1
+Gender_2
+Gender_3
+Race_1
+Race_2
+Race_3
+Race_4
+Ethnicity_1
+Ethnicity_2
+Ethnicity_3
+Ethnicity_4
+APR Medical Surgical Description_1
+APR Medical Surgical Description_3
+Payment Typology 1_1
+Payment Typology 1_2
+Payment Typology 1_3
+Payment Typology 1_4
+Payment Typology 1_5
+Payment Typology 1_6
+Payment Typology 1_7
+Payment Typology 1_8
+Payment Typology 1_9
+Payment Typology 2_1.0
+Payment Typology 2_2.0
+Payment Typology 2_3.0
+Payment Typology 2_4.0
+Payment Typology 2_5.0
+Payment Typology 2_6.0
+Payment Typology 2_7.0
+Payment Typology 2_8.0
+Payment Typology 2_9.0
+Payment Typology 2_10.0
+Payment Typology 3_1.0
+Payment Typology 3_2.0
+Payment Typology 3_3.0
+Payment Typology 3_4.0
+Payment Typology 3_5.0
+Payment Typology 3_6.0
+Payment Typology 3_7.0
+Payment Typology 3_8.0
+Payment Typology 3_9.0
+Payment Typology 3_10.0
+Patient Disposition_1
+Patient Disposition_2
+Patient Disposition_3
+Patient Disposition_4
+Patient Disposition_5
+Patient Disposition_6
+Patient Disposition_7
+Patient Disposition_8
+Patient Disposition_9
+Patient Disposition_10
+Patient Disposition_11
+Patient Disposition_12
+Patient Disposition_13
+Patient Disposition_14
+Patient Disposition_15
+Patient Disposition_16
+Patient Disposition_17
+Patient Disposition_18
+Patient Disposition_19
+Type of Admission_1
+Type of Admission_2
+Type of Admission_3
+Type of Admission_4
+Type of Admission_5
+Type of Admission_6
+Permanent Facility Id
+Age Group
+Zip Code - 3 digits
+CCSR Diagnosis Description
+CCSR Procedure Description
+APR DRG Description
+APR MDC Description
+APR Severity of Illness Code
+APR Severity of Illness Description
+APR Risk of Mortality
+Birth Weight
+Emergency Department Indicator
+ord_encoded_rom
+ord_encoded_severity
+CCSR Diagnosis Code
+CCSR Procedure Code
+APR DRG Code
+APR MDC Code
+Operating Certificate Number
+Facility Name

@@ -1,0 +1,30 @@
+Hospital Service Area       -- OHE
+Hospital County             -- Target (OHE same de rha tha)
+Operating Certificate Number    -- drop
+Permanent Facility Id           -- drop
+Facility Name                   -- Target
+Age Group                       -- Target (ohe same de rha tha)
+Zip Code - 3 digits             -- frequency (Target same de rha tha)
+Gender                          -- OHE
+Race                            -- OHE
+Ethnicity                       -- OHE
+Type of Admission               -- OHE
+Patient Disposition             -- OHE
+CCSR Diagnosis Code             -- Target
+CCSR Diagnosis Description      -- drop
+CCSR Procedure Code             -- Target
+CCSR Procedure Description      -- drop
+APR DRG Code                    -- Target
+APR DRG Description             -- drop
+APR MDC Code                    -- Target
+APR MDC Description             -- drop
+APR Severity of Illness Code    -- Target
+APR Severity of Illness Description -- drop
+APR Risk of Mortality           -- ohe
+APR Medical Surgical Description  -- OHE
+Payment Typology 1                -- OHE
+Payment Typology 2                 -- OHE
+Payment Typology 3                 -- OHE
+Birth Weight                       -- Target
+Emergency Department Indicator     -- NO encoding required
+Total Costs

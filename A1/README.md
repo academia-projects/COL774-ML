@@ -1,0 +1,13 @@
+Selected features with reasoned encoding
+1. Hospital Service Area - since different regions could have different levels of prosperity, having a different weight for every should be beneficial as it would indicate how much the hospitals charge, and hospitals in the same area would charge similar due to competitiveness
+2. Hospital County - same reasoning as above, target encoding gave similar result, so would prefer lesser features for same accuracy as would be computationally efficient
+3. Operating Certificate Number and Facility id - Since these two are similar to Facility Name as every facility would have a unique certificate number and facility id, so correlation between the weights would be high hence one feature is enough
+4. Facility id - again, every facility would enforce a unique management and hence a different billing structure. So looked logical to target encode it on the basis of mean of total billed amount
+5. Age Group, Gender, Ethnicity - according to the analysis of data, different age groups(/Gender/ Ethnicity) suffer from different problems and hence different costs for treatment. So a diffrerent weight for each catefgory
+6. Type of Admission - Since an emergency would attract higher prices for service, urgency slightly les and so on, so we could make up an order, which would be reflected by mean hence target encoding (Target would work, but OHE better)
+7. Patient Disposition - Different problems, hence different prices for cure, hence different weights for every disease hence OHE
+8. CCSR Diagnosis , procedure, APR DRG, APR MDC, APR Severity of Illness code and description both would give similar coefficients as are completely identical in terms of any encoding, hence dropped all the descriptions mentioned, and applied Target encoding for the rest
+9. APR Risk of Mortality, APR Medical Surgical Description - both would lead do higher costs with increase in seriousness, hence ordinal encoding or target encoding required (avoided ordinal, as accurate differene selection between 2 levels not possible) // change kar lena thoda if does not look good
+10. Payment Topology 1,2,3 - could not come up with anything
+11. Birth weight - applicable only for newborns, as extra charges apply for the handling of baby so the model learns the weights and no encoding applied as it is numerical (underweight and overweight babies may attract extra costs, overweight is handled properly but underweight would lead to error, hence a new feature 2nd degree with minima as mean weight and cost increases about it) [y = a + (weight - normal_weight)**2 --> ye daal dena pls abhi yaad aaya]
+12. Emergency department indicator - no encoding required as ordinal encoding given works fine and changing it does not lead to better results

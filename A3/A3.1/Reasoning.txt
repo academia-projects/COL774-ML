@@ -1,0 +1,21 @@
+Inferences from AlexNet Paper ->  https://proceedings.neurips.cc/paper_files/paper/2012/file/c399862d3b9d6b76c8436e924a68c45b-Paper.pdf
+1. Why ReLU is Used? 
+    a. Section 3.1 on Page 3 
+    b. Does not saturate, but could suffer from DYING RELU problem
+2. Best Normalisations - 
+    a. Response Normalisation
+    b. brightness normalization
+    c. local contrast normalization scheme of Jarrett et al. [11]
+3. Pooling -
+    a. generally observe during training that models with 'OVERLAPPING POOLING' find it slightly more difficult to overfit
+4. Objective function - multinomial logistic regression
+5. considerable overfitting due to large number of learnable parameters. TO Combat
+    a. Data Augmentation
+    b. Altering intensity of RGB channel
+6. Dropouts -> V Imp
+
+Inferences for ResNet Paper -> https://www.cv-foundation.org/openaccess/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf
+1. Depth is beneficial to an extent
+    a. When deeper networks are able to start converging, a degradation problem has been exposed: with the network depth increasing, accuracy gets saturated (which might be
+    unsurprising) and then degrades rapidly. Unexpectedly, such degradation is not caused by overfitting, and adding more layers to a suitably deep model leads to higher training error, 
+    as reported in [10, 41] and thoroughly verified by our experiments. Fig. 1 shows a typical example
